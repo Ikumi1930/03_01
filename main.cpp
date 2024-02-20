@@ -1,5 +1,6 @@
-#include <Novice.h>
 #include "InputHandler.h"
+#include <Novice.h>
+#include "Player.h"
 
 const char kWindowTitle[] = "LE2C_08_サカモトイクミ_タイトル";
 

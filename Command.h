@@ -3,7 +3,8 @@
 
 class Player;
 
-class ICommand {
+class ICommand
+{
 public:
 	virtual ~ICommand();
 	virtual void Exec(Player& player) = 0;

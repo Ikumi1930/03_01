@@ -1,5 +1,6 @@
 #include "InputHandler.h"
-#include "../Adapter/Novice.h"
+#include "Novice.h"
+//#include "../Adapter/Novice.h"
 
 void InputHandler::AssignMoveRightCommand2PressKeyD() {
 	ICommand* command = new MoveRightCommand();

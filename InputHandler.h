@@ -1,7 +1,9 @@
 #pragma once
 #include "Command.h"
+#include <Novice.h>
 
-class InputHandler {
+class InputHandler
+{
 public:
 	ICommand* HandleInput();
 
